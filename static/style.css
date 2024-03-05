@@ -1,0 +1,180 @@
+body {
+    background-color: #b1edff; /* Cambiar a un tono más suave */
+    font-family: Arial, sans-serif; /* Cambiar la fuente predeterminada */
+}
+
+section.content {
+    margin: 20px; /* Añadir un margen alrededor del contenido */
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para el contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+nav {
+    margin-bottom: 20px; /* Espacio entre la navegación y el encabezado */
+}
+
+header {
+    text-align: center; /* Centrar el encabezado */
+    margin-bottom: 20px; /* Espacio entre el encabezado y el contenido */
+}
+
+ul {
+    list-style-type: none; /* Quitar viñetas de las listas */
+    padding: 0;
+}
+
+ul li {
+    display: inline; /* Mostrar elementos de lista en línea */
+    margin-right: 10px; /* Espacio entre elementos de lista */
+}
+
+a {
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    color: #ff0000; /* Cambiar color de los enlaces */
+}
+
+form {
+    background-color: #7086f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+    max-width: 400px; /* Ancho máximo del formulario */
+}
+
+form label {
+    display: block; /* Mostrar etiquetas en bloques separados */
+    margin-bottom: 5px; /* Espacio inferior entre etiquetas */
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%; /* Hacer que los campos de texto ocupen todo el ancho */
+    padding: 10px; /* Añadir espacio alrededor del texto dentro de los campos */
+    margin-bottom: 10px; /* Espacio inferior entre campos */
+}
+
+form input[type="submit"] {
+    width: 100%; /* Hacer que el botón de enviar ocupe todo el ancho */
+    padding: 10px;
+    background-color: #ff0000; /* Cambiar color de fondo del botón */
+    color: #fff; /* Cambiar color del texto del botón */
+    border: none;
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+
+.flash {
+    background-color: #ffcc00; /* Color de fondo del mensaje flash */
+    color: #000; /* Color del texto del mensaje flash */
+    padding: 10px;
+    margin-bottom: 10px; /* Espacio inferior entre mensajes flash */
+    border-radius: 5px;
+}
+
+section{
+    padding: 100px 0;
+}
+.details-card {
+	background: #ecf0f1;
+}
+
+.card-content {
+	background: #ffffff;
+	border: 4px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.card-img {
+	position: relative;
+	overflow: hidden;
+	border-radius: 0;
+	z-index: 1;
+}
+
+.card-img img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.card-img span {
+	position: absolute;
+    top: 15%;
+    left: 12%;
+    background: #1ABC9C;
+    padding: 6px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transform: translate(-50%,-50%);
+}
+.card-img span h4{
+        font-size: 12px;
+        margin:0;
+        padding:10px 5px;
+         line-height: 0;
+}
+.card-desc {
+	padding: 1.25rem;
+}
+
+.card-desc h3 {
+	color: #000000;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.card-desc p {
+	color: #747373;
+    font-size: 14px;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.5;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+.btn-card{
+	background-color: #1ABC9C;
+	color: #fff;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    margin: 0;
+    border: 0;
+    -webkit-border-radius: .125rem;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word;
+    color: #fff;
+    padding-top: 10px;
+    
+}
+.btn-card:hover {
+    background: orange;
+}
+a.btn-card {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hover1{
+    text-align: center;
+}
