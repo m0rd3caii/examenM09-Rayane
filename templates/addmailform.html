@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Añade un Correo{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+   <form action = "{{url_for('addmail')}}" method = "post">
+      <label for="name" class="form-label required">Nom:</label>
+      <p><input type = "text" name = "name" /></p>
+      <label for="mail" class="form-label required">Mail:</label>
+      <p><input type = "text" name = "mail" /></p>
+      <p><input type = "submit" value = "submit" /></p>
+      <a href="{{url_for('getmail')}}">GETMAIL</a>
+   </form>
+   {% if resultado %}
+   <p class="resultado">¡El correo se ha añadido correctamente!</p>
+   {% endif %}
+{% endblock %}
